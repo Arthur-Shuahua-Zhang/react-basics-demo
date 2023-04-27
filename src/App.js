@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+// import { createStore } from 'redux';
+// import allReducers from './components/react-redux-demo/reducers';
+// import { Provider } from 'react-redux';
+// import MyReactReduxDemo from './components/react-redux-demo/MyReactRudexDemo';
 // import Greeting from './components/class-components/Geeting';
 // import CounterClassComponent from './components/class-components/CounterClassComponent';
 // import MyColorComponent from './components/component-life-cycle/MyColorComponent';
@@ -14,10 +18,17 @@ import './App.css';
 // import UserRefDemo2 from './components/myHooks/UseRefDemo2';
 // import { CounterWithHook } from './components/myHooks/CounterWithHook';
 // import RecentPosts from './components/contextDemo/RecentPosts';
-import Moments from './components/contextDemo/Moments';
+// import Moments from './components/contextDemo/Moments';
+// import {MyBasicReduxCounterFn} from './components/basics-redux/MyBasicReduxCounterFn';
+import MyRouterComponent from './components/router-demo/MyRouterComponent';
+
+
 
 function App() {
-
+  // const store = createStore(
+  //   allReducers,
+  //   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  //   );
 
   return (
     <div className="App">
@@ -35,7 +46,13 @@ function App() {
       {/* <UserRefDemo2 /> */}
       {/* < CounterWithHook/> */}
       {/* <RecentPosts /> */}
-      <Moments />
+      {/* <Moments /> */}
+      {/* <MyBasicReduxCounterFn /> */}
+      {/* <Provider store={store}>
+        <MyReactReduxDemo />
+      </Provider> */}
+
+      <MyRouterComponent />
     </div>
   );
 }
