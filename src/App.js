@@ -20,7 +20,8 @@ import './App.css';
 // import RecentPosts from './components/contextDemo/RecentPosts';
 // import Moments from './components/contextDemo/Moments';
 // import {MyBasicReduxCounterFn} from './components/basics-redux/MyBasicReduxCounterFn';
-import MyRouterComponent from './components/router-demo/MyRouterComponent';
+// import MyRouterComponent from './components/router-demo/MyRouterComponent';
+import UsersComponent from './components/interview-question/UsersComponent';
 
 
 
@@ -51,8 +52,9 @@ function App() {
       {/* <Provider store={store}>
         <MyReactReduxDemo />
       </Provider> */}
+      {/* <MyRouterComponent /> */}
+      <UsersComponent />
 
-      <MyRouterComponent />
     </div>
   );
 }
